@@ -1,0 +1,20 @@
+{
+  "name": "ai-research-agent",
+  "version": "1.0.0",
+  "description": "AI Research Agent that gathers daily AI news, research papers, and tools",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node src/index.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.14.1",
+    "agents": "^0.0.101",
+    "cloudflare": "^4.4.1",
+    "dotenv": "^16.3.1",
+    "node-cron": "^3.0.3"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250705.0"
+  }
+}

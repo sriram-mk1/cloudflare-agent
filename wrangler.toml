@@ -1,0 +1,13 @@
+name = "ai-research-agent"
+main = "agent.ts"
+compatibility_date = "2025-07-06"
+compatibility_flags = ["nodejs_compat"]
+
+[triggers]
+crons = ["0 8 * * *"]
+
+[observability.logs]
+enabled = true
+
+
+
